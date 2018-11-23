@@ -1,0 +1,100 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+}
+
+.navbar {
+  color: #fff;
+  background-color: #aaa;
+}
+
+.alert .alert_grid {
+  padding: 1rem 2.5rem 1.1rem;
+  text-align: left;
+  background-color: #cce6ff;
+  font-size: 0.8em;
+}
+
+.logo-content {
+  color: abc;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.navbar {
+  background-color: #999;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+.menu .menu_list {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999;
+}
+
+.menu .menu_list li {
+    float: left;
+}
+
+.menu .menu_list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.menu-left {
+  float: left;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menu .menu_list li a:hover {
+    background-color: #111;
+}
+
+.logo {
+  float: left;
+  height: 2pc;
+  padding: 4pt;
+  margin: 0;
+}
+
+.home_hero-content {
+  width: 100%;
+  color: #fff;
+  background-color: #333;
+  padding: 20pc;
+  display: block;
+  margin: 0;
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.container--copy {
+  width: 100%;
+  display: block;
+}
+
+.container--copy h3 {
+  float: left;
+  display: inline-block;
+}
+
+.more-content {
+  display: inline-block;
+  float: right;
+}
+
+.home_gallery-content {
+  clear: left;
+}
+
+.item {
+  float: left;
+  width: 14pc;
+}
