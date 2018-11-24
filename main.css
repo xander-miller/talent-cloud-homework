@@ -3,6 +3,13 @@ body {
   font-size: 100%;
 }
 
+section {
+  width: 100%;
+  clear: left;
+  clear: right;
+  display: block;
+}
+
 .navbar {
   color: #fff;
   background-color: #aaa;
@@ -16,7 +23,6 @@ body {
 }
 
 .brand-content {
-  color: abc;
   font-size: 2em;
   font-weight: bolder;
 }
