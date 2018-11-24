@@ -15,7 +15,7 @@ body {
   font-size: 0.8em;
 }
 
-.logo-content {
+.brand-content {
   color: abc;
   font-size: 2em;
   font-weight: bolder;
@@ -57,7 +57,7 @@ body {
     background-color: #111;
 }
 
-.logo {
+.brand {
   float: left;
   height: 2pc;
   padding: 4pt;
