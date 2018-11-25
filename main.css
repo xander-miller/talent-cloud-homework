@@ -104,3 +104,26 @@ section {
   float: left;
   width: 14pc;
 }
+
+.home_form {
+  width: 100%;
+}
+
+.home_form-content {
+  max-width: 50pc;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.home_form-content input {
+  display: block;
+  width: 100%;
+}
+
+.btn-submit {
+  border: 0;
+  background: #acb;
+  padding: 1rem;
+  margin: auto;
+  width: 50%
+}
