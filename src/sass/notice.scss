@@ -1,0 +1,7 @@
+.alert {
+  padding: 1rem 2.5rem 1.1rem;
+  font-size: 0.8em;
+  &.alert--info {
+    background-color: #cce6ff;
+  }
+}

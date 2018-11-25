@@ -1,0 +1,72 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  margin: 0;
+}
+
+.alert {
+  padding: 1rem 2.5rem 1.1rem;
+  font-size: 0.8em;
+}
+.alert.alert--info {
+  background-color: #cce6ff;
+}
+
+.navbar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  color: #fff;
+  background-color: #999;
+}
+
+.brand {
+  padding: 0.25rem 1rem;
+}
+.brand .brand__logo {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.nav .nav__list {
+  margin: 0;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+.nav .nav__list .nav__list__item {
+  padding: 14px 16px;
+}
+.nav .nav__list .nav__list__item a {
+  color: white;
+}
+
+.hero {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: #333;
+  height: 24rem;
+}
+.hero .hero__content {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.gallery_heading {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 1rem;
+}
+.gallery_heading .gallery_heading__content {
+  margin: 0;
+}

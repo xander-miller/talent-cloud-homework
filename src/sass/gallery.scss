@@ -1,0 +1,9 @@
+.gallery_heading {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1rem;
+  .gallery_heading__content {
+    margin: 0;
+  }
+}

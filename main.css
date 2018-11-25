@@ -1,7 +1,4 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 100%;
-}
+
 
 section {
   width: 100%;
@@ -27,32 +24,6 @@ section {
   font-weight: bolder;
 }
 
-.navbar {
-  background-color: #999;
-  display: inline-block;
-  width: 100%;
-  margin: 0;
-}
-
-.menu .menu_list {
-    float: right;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #999;
-}
-
-.menu .menu_list li {
-    float: left;
-}
-
-.menu .menu_list li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-}
 
 .menu-left {
   float: left;
@@ -70,16 +41,7 @@ section {
   margin: 0;
 }
 
-.home_hero-content {
-  width: 100%;
-  color: #fff;
-  background-color: #333;
-  padding: 20pc;
-  display: block;
-  margin: 0;
-  font-size: 3em;
-  font-weight: bolder;
-}
+
 
 .container--copy {
   width: 100%;
