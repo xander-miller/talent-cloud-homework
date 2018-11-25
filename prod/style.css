@@ -97,7 +97,45 @@ body {
   font-size: 1em;
   word-wrap: break-word;
 }
-.gallery_item .gallery_item_info dd {
-  float: right;
+
+.form_section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.form_section__content {
+  width: 36rem;
+  margin: 3rem;
+}
+.form_section__content .form-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.form-input-field {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.form-input-field + .form-input-field {
+  margin-left: 1rem;
+}
+
+.submit-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 0.5rem 0;
+}
+.submit-row .submit-btn {
+  padding: 0.5rem 2rem;
+  background-color: #eee;
   margin: 0;
+  border: none;
 }
