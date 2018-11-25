@@ -1,8 +1,12 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #fff;
   background-color: #999;
+  &.navbar--footer {
+    height: 5rem;
+  }
 }
 
 .brand {
@@ -16,6 +20,7 @@
 .nav {
   .nav__list {
     margin: 0;
+    padding-left: 0;
     display: flex;
     list-style-type: none;
     .nav__list__item {
