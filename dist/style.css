@@ -55,10 +55,38 @@ body {
 .gallery_heading {
   display: flex;
   justify-content: space-between;
-  align-content: center;
-  padding: 1rem;
+  align-items: center;
+  padding: 1rem 4rem;
 }
 .gallery_heading .gallery_heading__content {
+  margin: 0;
+}
+
+.gallery_collection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery_item {
+  flex: 1;
+  padding: 0 2rem;
+}
+.gallery_item:first-child {
+  padding-left: 4rem;
+}
+.gallery_item:last-child {
+  padding-right: 4rem;
+}
+.gallery_item .item-image {
+  height: 18rem;
+  background-color: #ccc;
+}
+.gallery_item .gallery_item_info {
+  font-size: 1em;
+  word-wrap: break-word;
+}
+.gallery_item .gallery_item_info dd {
+  float: right;
   margin: 0;
 }
 
