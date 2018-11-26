@@ -15,7 +15,7 @@ module.exports = function(grunt) {
         // assemble task
         assemble: {
             options: {
-                layout: 'layout.hbs',
+                layout: 'index.hbs',
                 layoutdir: 'src/layouts/',
                 partials: 'src/partials/**/*.hbs',
                 flatten: true
