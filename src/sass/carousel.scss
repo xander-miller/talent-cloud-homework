@@ -30,6 +30,7 @@
 }
 
 .carousel_item__title {
+  padding-top: 4rem; 
   display: flex;
   justify-content: center;
 }
@@ -52,5 +53,6 @@
 .carousel_item__card {
   display: flex;
   align-items: center;
+  padding: 0 6rem;
 }
 

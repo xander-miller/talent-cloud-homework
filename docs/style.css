@@ -97,7 +97,7 @@ body {
 }
 .gallery_item .item-image {
   height: 18rem;
-  background-color: #ccc;
+  background-color: #888;
 }
 .gallery_item .gallery_item_info {
   font-size: 1em;
@@ -188,6 +188,7 @@ body {
 }
 
 .carousel_item__title {
+  padding-top: 4rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -216,4 +217,5 @@ body {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  padding: 0 6rem;
 }
