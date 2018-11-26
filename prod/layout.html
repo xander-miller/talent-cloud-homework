@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css"> 
   </head>
   <body>
@@ -127,14 +128,20 @@
     </div>
   </div>
 </section><!-- Carousel -->
-<div class="owl-carousel owl-theme">
+<section class="carousel_section">
+<div class="custom_carousel_button customPrevBtn">
+  <i class="fas fa-angle-left custom_carousel_button__content"></i>
+</div>
+<div class="owl-carousel owl-theme owl-carousel--width">
     <div class="item">
       <div class="item__content">
         <div class="carousel_item__title">
           <h3>Featured Content Title 1</h3>
         </div>
         <div class="carousel_item__card">
-          <div class="carousel_item_thumbnail">
+          <div class="carousel_thumbnail_container">
+            <div class="carousel_item_thumbnail">
+            </div>
           </div>
           <div class="carousel_card_info">
             <h5>Series Title</h5>
@@ -150,7 +157,9 @@
         <h3>Featured Content Title 2</h3>
       </div>
       <div class="carousel_item__card">
-        <div class="carousel_item_thumbnail">
+        <div class="carousel_thumbnail_container">
+          <div class="carousel_item_thumbnail">
+          </div>
         </div>
         <div class="carousel_card_info">
           <h5>Series Title</h5>
@@ -166,7 +175,9 @@
         <h3>Featured Content Title 3</h3>
       </div>
       <div class="carousel_item__card">
-        <div class="carousel_item_thumbnail">
+        <div class="carousel_thumbnail_container">
+          <div class="carousel_item_thumbnail">
+          </div>
         </div>
         <div class="carousel_card_info">
           <h5>Series Title</h5>
@@ -175,8 +186,12 @@
         </div>
       </div>
     </div>
-  </h4></div>
-</div><!-- Form -->
+  </div>
+</div>
+<div class="custom_carousel_button customNextBtn">
+  <i class="fas fa-angle-right custom_carousel_button__content"></i>
+</div>
+</section><!-- Form -->
 <section class="form_section">
   <div class="form_section__content">
     <h3>Contact Video Log</h3>

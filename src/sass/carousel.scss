@@ -1,7 +1,31 @@
+.owl-carousel--width {
+  width: 70em;
+}
+
+.carousel_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #888;
+}
+
+.custom_carousel_button {
+  width: 10rem;
+  height: 100%;
+  background-color: #888;
+  display: flex;
+  justify-content: center;
+  .custom_carousel_button__content {
+    font-size: 5em;
+  }
+}
 
 .item__content {
-  background-color: #888;
-  width: 50rem;
+  padding: 0 3rem;
+  background-color: #ddd;
+  width: 60rem;
   height: 30rem;
 }
 
@@ -10,12 +34,14 @@
   justify-content: center;
 }
 
-.carousel_item_thumbnail {
+.carousel_thumbnail_container {
   flex: 1;
-  background-color: #000;
-  width: 10rem;
-  height: 10rem;
-  margin: 1rem;
+  .carousel_item_thumbnail {
+    background-color: #000;
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+  }
 }
 
 .carousel_card_info {
@@ -25,5 +51,6 @@
 
 .carousel_item__card {
   display: flex;
+  align-items: center;
 }
 
