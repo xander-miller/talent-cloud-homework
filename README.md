@@ -13,6 +13,8 @@ Wireframe: [Wireframe](https://github.com/xander-miller/talent-cloud-homework/bl
 - [x] Links on the page don't have to link anywhere, but should be built as though they are ready to do so.
 - [x] The "Featured Content" carousel should contain 3 items.
 
+*I have never attempted responsive design without a design framework before. I ran out of time to try and figure it out. I used flexbox to orient elements, I believe implementing responsive design would have been easier if I had built a grid system first. I have also never used relative element units (rem) before. I used it in this assignment because I noticed it used in the Talent Cloud portal. I also attempted to use BEM (Block Element Modifier) conventions from what I read over the weekend.*
+
 ### Ability to Learn Task
 
 Reading: [UX 101: A Basic Project Checklist](https://theblog.adobe.com/ux-101-a-basic-project-checklist/)
