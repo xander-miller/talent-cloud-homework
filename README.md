@@ -10,8 +10,8 @@ Wireframe: [Wireframe](https://github.com/xander-miller/talent-cloud-homework/bl
 
 - [x] Build the following wireframe, as is, in HTML and CSS (bonus points if executed in Sass, please do not use any CSS frameworks such as Bootstrap).
 - [ ] The page should be fully responsive for mobile, tablet, and desktop devices.
-- [x]Links on the page don't have to link anywhere, but should be built as though they are ready to do so.
-- [x]The "Featured Content" carousel should contain 3 items.
+- [x] Links on the page don't have to link anywhere, but should be built as though they are ready to do so.
+- [x] The "Featured Content" carousel should contain 3 items.
 
 ### Ability to Learn Task
 
@@ -23,4 +23,4 @@ Assignment: [Learning Assignment](https://github.com/xander-miller/talent-cloud-
 
 - [x] Write a short explanation (1-3 paragraphs) outlining the steps you would take to test and improve the wireframe provided, and why you have chosen those steps.
 
-* Technically I wrote 4 paragraphs, but I interpreted the requirement as being about approximate length. *
+*Technically I wrote 4 paragraphs, but I interpreted the requirement as being about approximate length.*
