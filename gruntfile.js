@@ -22,7 +22,7 @@ module.exports = function(grunt) {
             },
             pages: {
                 src: 'src/layouts/*.hbs',
-                dest: './prod'
+                dest: './docs'
             }
         },
 
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
                 expand: true,
                 flatten: true,
                 src: 'dist/*.css',
-                dest: 'prod'
+                dest: 'docs'
             }
         },
 
